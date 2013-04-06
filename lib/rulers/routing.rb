@@ -8,5 +8,6 @@ module Rulers
       cont += "Controller" # "PeopleController"
       [Object.const_get(cont), action]
     end
+
   end
 end
